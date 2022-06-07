@@ -24,7 +24,8 @@ Console.WriteLine("Введем координату y точки B: ");
 pointB[1] = int.Parse(Console.ReadLine());
 
 double dis = FindDist(pointA, pointB);
-Console.WriteLine("Расстояние между точкой A и B = " + dis);
+Console.WriteLine("Расстояние между точкой A и B = {0: 0.00}", dis);
+
 
 
 
